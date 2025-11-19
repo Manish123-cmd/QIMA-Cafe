@@ -13,7 +13,7 @@ body {
 .texture-bg {
   background: 
     linear-gradient(to right, rgba(243, 235, 202, 0.92), rgba(243, 235, 202, 0.92)),
-    url('/Image/Texture.png');
+    url('../Image/Texture.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
