@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4b4949;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Center the section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+/* Heading Section */
+.hero-text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #F4B400, #f7852d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text h5 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+/* Contact form box */
+.cont {
+  background-color: #000;
+  border: 2px solid #f7852d;
+  border-radius: 15px;
+  padding: 30px 50px;
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* left align everything */
+  gap: 15px;
+}
+
+.cont p {
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #F4B400, #f7852d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.cont form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cont input,
+.cont textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.cont textarea {
+  resize: none;
+}
+
+.cont button {
+  align-self: center;
+  background: linear-gradient(90deg, #F4B400, #f7852d);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cont button:hover {
+  background: linear-gradient(90deg, #f7852d, #F4B400);
+}
+.follow {
+  background-color: #000;
+  border: 2px solid #f7852d;
+  border-radius: 15px;
+  padding: 25px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.follow p:first-child {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #F4B400, #f7852d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 10px 0;
+}
+
+.icons i {
+  font-size: 40px;
+  color: #f7852d;         /* <-- now orange and visible */
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: #F4B400;         /* subtle golden hover */
+  transform: scale(1.1);  /* adds a small pop effect */
+}
+
+.follow .note {
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+}
+

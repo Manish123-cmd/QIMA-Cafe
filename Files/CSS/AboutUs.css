@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* --- TEXTURE SECTION (The Beginning & Mission) --- */
+.texture-bg {
+  background: 
+    linear-gradient(to right, rgba(243, 235, 202, 0.92), rgba(243, 235, 202, 0.92)),
+    url('/Image/Texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.texture-bg p {
+  color: #222;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.texture-bg h1 {
+  font-weight: 700;
+}
+
+/* --- IMAGES --- */
+img {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* --- OUR VALUES SECTION --- */
+.values-section {
+  background-color: #000;
+  color: #fff;
+}
+
+.value-card {
+  background-color: #fff;
+  color: #222;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.value-card h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.value-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* --- VISIT US SECTION --- */
+.visit-section {
+  background-color: #f3ebca;
+}
+
+.visit-section h2 {
+  color: #222;
+}
+
+.visit-section p {
+  color: #555;
+}
+
+.visit-section .btn {
+  background-color: #d86f00;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.visit-section .btn:hover {
+  background-color: #b85e00;
+  transform: scale(1.05);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .texture-bg {
+    padding: 2rem 1rem;
+  }
+
+  .values-section {
+    padding: 50px 15px;
+  }
+
+  .visit-section {
+    padding: 40px 20px;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+}
